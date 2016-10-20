@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gemspec path: 'engines/admin'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
