@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Admin::VERSION
   s.authors     = ["John Figueiredo"]
   s.email       = ["john@johnfigueiredo.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Admin."
-  s.description = "TODO: Description of Admin."
+  s.homepage    = "http://localhost:3000/admin"
+  s.summary     = "Admin Engine"
+  s.description = "This is the engine related to the admin portal"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
