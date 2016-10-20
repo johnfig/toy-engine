@@ -38,12 +38,4 @@ class UsersControllerTest < ActionController::TestCase
     patch :update, id: @user, user: { age: @user.age, email: @user.email, first_name: @user.first_name, last_name: @user.last_name }
     assert_redirected_to user_path(assigns(:user))
   end
-
-  test "should destroy user" do
-    assert_difference('User.count', -1) do
-      delete :destroy, id: @user
-    end
-
-    assert_redirected_to users_path
-  end
 end
